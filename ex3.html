@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furry Friends Campaign </title>
+    <link rel="stylesheet" href="my_style%20ex3.css" type="text/css">
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<div id="clickMe">
+    Show me the the Furry Friend of the Day
+</div>
+<div id="picfname">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIyzlfMAN55QCr6F-iYsjN4i8S93Qax4vSUg&usqp=CAU">
+    <br>
+    <p>ĐÂY LÀ HƯỜNG</p>
+</div>
+<script>
+    $(document).ready(function () {
+    $("#clickMe").click(function () {
+        $("img").fadeIn(9000);
+        $("#picfname").slideToggle("slow");
+    });
+    });
+</script>
+
+</body>
+</html>

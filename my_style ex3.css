@@ -1,0 +1,15 @@
+#clickMe{
+    background: #D8b36e;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    display: block;
+    border: 2px solid #000;
+}
+#picfname{
+    background: #D8b36e;
+    padding: 20px;
+    width: 350px;
+    display: none;
+    border: 2px solid #000000;
+}

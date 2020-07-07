@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<p>Hello</p>
+<a href="#">Click to hide me too</a>
+<p>Here is another paragraph</p>
+<script>
+    $("p").hide();
+    $("a").click(function () {
+        event.preventDefault();
+        $(this).hiden();
+    });
+</script>
+</body>
+</html>
